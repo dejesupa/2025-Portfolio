@@ -32,8 +32,8 @@ export default function Projects() {
       client: "client name",
       year: "2023",
       img: work1,
-      title: "Revamping Global Lifestyle Brand.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Summarist",
+      detail: "An AI-powered book summary platform where users can explore, preview, and listen to summaries of popular non-fiction books. Features dynamic book pages, smart search, custom login modal, and an interactive “Choose Plan” experience with smooth responsive design.",
     },
     {
       client: "client name",
