@@ -39,15 +39,15 @@ export default function Projects() {
       client: "client name",
       year: "2023",
       img: work2,
-      title: "Next generation Web Management System.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Movie Finder",
+      detail: "A responsive web app that lets users search and explore movies by fetching real-time data from the OMDB API through a clean, interactive interface.",
     },
     {
       client: "client name",
       year: "2023",
       img: work3,
-      title: "Share your Life Stories. Generationally.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Online Book Library",
+      detail: "A responsive e-commerce web app that lets users browse products, view details, and manage their cart using real-time data from the FakeStore API through a clean, modern interface.",
     },
   ]
 
