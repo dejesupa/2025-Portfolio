@@ -69,13 +69,13 @@ export default function Header() {
 
       <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 0.5 }} className="header--top">
         <h3>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://github.com/dejesupa" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={0.5}>
               GITHUB
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/patriciadejesus1/" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1}>
               LINKEDIN
             </ScrambleText>
@@ -99,7 +99,7 @@ export default function Header() {
           </h3>
           <p className="theme--detail">
             <ScrambleText shuffle delay={4}>
-             Hi, I’m Trisha — a Frontend Developer focused on building polished, responsive web applications. I enjoy turning designs into smooth, intuitive user experiences with React, Next.js, and Tailwind. I’m driven by curiosity, creativity, and the desire to keep improving so I can contribute to impactful, user-centered digital products.
+             Hi, I’m a Frontend Developer focused on building polished, responsive web applications. I enjoy turning designs into smooth, intuitive user experiences with React, Next.js, and Tailwind. I’m driven by curiosity, creativity, and the desire to keep improving so I can contribute to impactful, user-centered digital products.
             </ScrambleText>
           </p>
         </div>

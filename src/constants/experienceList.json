@@ -1,23 +1,26 @@
 [
   {
-    "company": "Canva",
-    "role": "Software Engineer",
+    "company": "Skinstric AI",
+    "role": "Frontend Engineer",
     "resps": [
-      "Developing new innovative features across the video product which leads to more users choosing the video Canva product",
-      "Using React, TypeScript and MobX to engineer a frontend codebase using industry best practises",
-      "Writing extremely clean and reusable code by making effective use of dependency injection, code isolation, local reasoning, clean module boundaries, fast development cycles, tests, deterministic behaviour and type safety"
+      "Developed an AI-powered skincare analysis app with Next.js, React, and TailwindCSS, integrating OpenAI Vision API for image-based skin detection.",
+"Built responsive, multi-step interfaces enhanced with GSAP and Lottie animations, improving engagement and analysis flow.",
+"Implemented reusable component structures and dynamic recommendation cards for a scalable UI.",
+"Optimized performance, reducing load times and ensuring seamless transitions between pages and camera steps.",
+"Integrated backend APIs for real-time analysis and recommendations, enhancing accuracy and usability."
+
     ],
-    "date": "Dec 2020 - Current"
+    "date": "Sept 2024 - April 2025"
   },
   {
-    "company": "Loopit",
-    "role": "Software Engineer",
+    "company": "Frontend Simplified",
+    "role": "Frontend Developer",
     "resps": [
-      "Developed the Loopit main software and customer facing widget using Vue and Vuex state management",
-      "Worked with UX designers and backend engineers in order to maintain and upgrade a high quality software that is used by car dealerships and consumers internationally",
-      "Transformed UI/UX wireframes into responsive HTML and CSS (Sass/BEM)",
-      "Ran end-to-end tests using Cypress unit tests and regression testing"
+      "Designed and deployed multiple React and Next.js applications using TailwindCSS, Firebase, and Node.js.",
+      "Collaborated on team projects using Git/GitHub, focusing on version control, debugging, and feature implementation.",
+      "Applied RESTful API integration and responsive design principles to deliver polished, accessible interfaces.",
+      "Developed real-world projects under agile timelines, accumulating over 350 hours of hands-on coding and deployment."
     ],
-    "date": "Jul 2020 - Dec 2020"
+    "date": "Jan 2024 - Aug 2024"
   }
 ]

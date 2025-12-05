@@ -11,7 +11,7 @@ import ScrambleText from "../ScrambleText"
 import ResumeCard from "../ResumeCard"
 
 // assets
-import ProfilePic from "../../assets/Images/Profile pic.png"
+import ProfilePic from "../../assets/Images/me.jpg"
 import Icon from "../Icon"
 import githubIcon from "../../assets/Icon/github.svg"
 import linkedinIcon from "../../assets/Icon/linkedin.svg"
@@ -69,10 +69,10 @@ export default function Resume() {
                 </ScrambleText>
               </h4>
               <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 0.5 }} onAnimationComplete={() => handleComplete()} className="resume--grid--detail--data--name--icons">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://github.com/dejesupa" target="_blank" rel="noreferrer">
                   <Icon img={githubIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/patriciadejesus1/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
                 <a href="" target="_blank" rel="noreferrer">

@@ -64,7 +64,7 @@ export default function About() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2 }} onAnimationComplete={() => handleComplete()} className="about--detail">
           <p className="theme--detail--dark">
-            <ScrambleText delay={2}>I’m a frontend developer passionate about turning ideas into clean, responsive, and user-friendly interfaces. Every project I build helps me deepen my understanding of modern web technologies and sharpen both my creativity and problem-solving skills. I’m committed to growing as a developer and building technology that feels intuitive, meaningful, and enjoyable to use.</ScrambleText>
+            <ScrambleText delay={2}>As a frontend developer, I enjoy solving problems through modern web technologies and building interfaces that feel simple, fast, and enjoyable to use. I’m always refining my skills so every project I create is more thoughtful, accessible, and user-centered than the last.</ScrambleText>
           </p>
         </motion.div>
 
