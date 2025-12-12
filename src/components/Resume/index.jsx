@@ -75,7 +75,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/patriciadejesus1/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/Trisha_Frontend_Resume.pdf" target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
