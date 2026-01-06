@@ -33,6 +33,7 @@ export default function Projects() {
       year: "",
       img: work1,
       title: "Summarist",
+      link: "https://summarist.vercel.app",
       detail: "An AI-powered book summary platform where users can explore, preview, and listen to summaries of popular non-fiction books. Features dynamic book pages, smart search, custom login modal, and an interactive “Choose Plan” experience with smooth responsive design.",
     },
     {
@@ -40,6 +41,7 @@ export default function Projects() {
       year: "",
       img: work2,
       title: "Movie Finder",
+       link: "https://react-final-project-delta.vercel.app/",
       detail: "A responsive web app that lets users search and explore movies by fetching real-time data from the OMDB API through a clean, interactive interface.",
     },
     {
@@ -47,6 +49,7 @@ export default function Projects() {
       year: "",
       img: work3,
       title: "Online Book Library",
+      link: "https://e-commerce-project-with-react.vercel.app/",
       detail: "A responsive e-commerce web app that lets users browse products, view details, and manage their cart using real-time data from the FakeStore API through a clean, modern interface.",
     },
   ]
@@ -83,6 +86,7 @@ export default function Projects() {
           <div className="projects--grid--content--works">
             {works.map((item, index) => {
               return (
+                
                 <WorkCard
                   item={item}
                   key={index}

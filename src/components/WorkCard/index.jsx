@@ -54,9 +54,25 @@ export default function TechCard({ item }) {
       <motion.div initial="hidden" animate={controls} variants={lineVariants} className="workCard--line"></motion.div>
 
       <div className="workCard--body">
-        <motion.span initial="hidden" animate={controls} variants={opacityVariants} transition={{ duration: 2, delay: 0.5 }} onAnimationComplete={() => handleComplete()}>
-          <img src={item.img} alt="" />
-        </motion.span>
+        <motion.span
+    initial="hidden"
+    animate={controls}
+    variants={opacityVariants}
+    transition={{ duration: 2, delay: 0.5 }}
+    onAnimationComplete={() => handleComplete()}
+  >
+    <a
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src={item.img}
+        alt={item.title}
+        className="workCard--img"
+      />
+    </a>
+  </motion.span>
         <h1>
           <HideText controls={controls} delay={delay}>
             {item.title}
